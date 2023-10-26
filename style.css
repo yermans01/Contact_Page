@@ -1,0 +1,54 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    background-image: url(imagenes/bg-image.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Be Vietnam Pro";
+    color: #F8FAFC;
+}
+.logo{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.form_inicio{
+    align-items: center;
+    padding: 0 350px;
+}
+.form_inicio h1{
+    font-size: 4rem;
+}
+.form_inicio h3{
+    font-size: 2rem;
+}
+.form{
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+}
+.form .form_cont{
+    position: relative;
+    width: 100%;
+}
+.form .form_cont input{
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+}
+@media screen and (min-width: 640px) {
+}
