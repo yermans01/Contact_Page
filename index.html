@@ -20,29 +20,31 @@
                 <h1><strong>Interested in our business pricing?</strong></h1>
                 <h3>Fill out the form to view details and we’ll contact you as soon as possible.</h3>
             </div>
-            <div class="form">
                 <form action="/">
                     <div class="form_cont">
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name" placeholder="Ethan Johnson">
 
-                        <label for="email">Company Email:</label>
-                        <input type="email" id="email" name="email" placeholder="ethan@johnson.com">
+                        <label class="label" for="email">Company Email:</label>
+                        <input class="input" type="email" id="email" name="email" placeholder="ethan@johnson.com">
                     </div>
                     <div class="form_cont">
                         <label for="tamano_co">Company Size:</label>
-                        <input type="text" id="tamano_co" name="tamano_co">
-
-                        <label for="subjet">Subjet:</label>
-                        <input type="text" id="subjet" name="subjet" placeholder="Building Landing pages">
+                        <select name="tamano_co" id="tamano_co">
+                            <option value="50 - 100 employees">50 - 100 employees</option>
+                        </select>
+                        
+                        <label class="label_select" for="subjet">Subjet:</label>
+                        <select class="select" name="subjet" id="subjet">
+                            <option value="Building">Building Landing pages</option>
+                        </select>
                     </div>
-                    <div class="form_cont"><
+                    <div class="form_cont">
                         <label for="message">Mesagge</label>
                         <textarea name="message" id="message" cols="30" rows="10">50 - 100 employees</textarea>
                     </div>
-                    <input type="submit" value="Contact Sales" id="button">
+                        <input type="submit" value="Contact Sales" id="button">
                 </form>
-            </div>
         </section>
     </main>    
 </body>
